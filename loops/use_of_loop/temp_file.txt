@@ -1,0 +1,760 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 1: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.730060026    fe80::8447:66ff:fec2:c9df ff02::1               MNDP     227    5678 → 5678 Len=165
+
+Frame 2: 227 bytes on wire (1816 bits), 227 bytes captured (1816 bits)
+Ethernet II, Src: 86:47:66:c2:c9:df (86:47:66:c2:c9:df), Dst: IPv6mcast_01 (33:33:00:00:00:01)
+Internet Protocol Version 6, Src: fe80::8447:66ff:fec2:c9df, Dst: ff02::1
+User Datagram Protocol, Src Port: 5678, Dst Port: 5678
+Mikrotik Neighbor Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.730060748    10.1.82.1             255.255.255.255       MNDP     207    5678 → 5678 Len=165
+
+Frame 3: 207 bytes on wire (1656 bits), 207 bytes captured (1656 bits)
+Ethernet II, Src: 86:47:66:c2:c9:df (86:47:66:c2:c9:df), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 10.1.82.1, Dst: 255.255.255.255
+User Datagram Protocol, Src Port: 5678, Dst Port: 5678
+Mikrotik Neighbor Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.730060917    86:47:66:c2:c9:df     CDP/VTP/DTP/PAgP/UDLD CDP      129    Device ID: mk_InsSabadell  Port ID: vlan15  
+
+Frame 4: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 2.000766578    D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 3.522139751    10.1.82.90            224.0.0.251           MDNS     114    Standard query response 0x0000 PTR 0A002700000B@5KPlayer-PC-0095._raop._tcp.local
+
+Frame 6: 114 bytes on wire (912 bits), 114 bytes captured (912 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 3.635539990    10.1.82.90            224.0.0.251           MDNS     114    Standard query response 0x0000 PTR 0A002700000B@5KPlayer-PC-0095._raop._tcp.local
+
+Frame 7: 114 bytes on wire (912 bits), 114 bytes captured (912 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 3.742579536    10.1.82.90            224.0.0.251           MDNS     134    Standard query 0x0000 ANY 0A002700000B@5KPlayer-PC-0095._raop._tcp.local, "QM" question SRV 0 0 8180 PC-0095.local
+
+Frame 8: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 3.991358300    10.1.82.90            224.0.0.251           MDNS     134    Standard query 0x0000 ANY 0A002700000B@5KPlayer-PC-0095._raop._tcp.local, "QM" question SRV 0 0 8180 PC-0095.local
+
+Frame 9: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 4.000196121    D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 10: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 4.246526418    10.1.82.90            224.0.0.251           MDNS     134    Standard query 0x0000 ANY 0A002700000B@5KPlayer-PC-0095._raop._tcp.local, "QM" question SRV 0 0 8180 PC-0095.local
+
+Frame 11: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 4.496041335    10.1.82.90            224.0.0.251           MDNS     487    Standard query response 0x0000 SRV, cache flush 0 0 8180 PC-0095.local TXT, cache flush PTR _raop._tcp.local PTR 0A002700000B@5KPlayer-PC-0095._raop._tcp.local A, cache flush 10.1.82.90 AAAA, cache flush fe80::3067:f5ac:a782:3cd3 NSEC, cache flush PC-0095.local NSEC, cache flush 0A002700000B@5KPlayer-PC-0095._raop._tcp.local
+
+Frame 12: 487 bytes on wire (3896 bits), 487 bytes captured (3896 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 5.496789084    10.1.82.90            224.0.0.251           MDNS     487    Standard query response 0x0000 SRV, cache flush 0 0 8180 PC-0095.local TXT, cache flush PTR _raop._tcp.local PTR 0A002700000B@5KPlayer-PC-0095._raop._tcp.local A, cache flush 10.1.82.90 AAAA, cache flush fe80::3067:f5ac:a782:3cd3 NSEC, cache flush PC-0095.local NSEC, cache flush 0A002700000B@5KPlayer-PC-0095._raop._tcp.local
+
+Frame 13: 487 bytes on wire (3896 bits), 487 bytes captured (3896 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 5.999773299    D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 14: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 7.353575674    10.1.82.58            224.0.0.251           MDNS     364    Standard query response 0x0000 PTR DESKTOP-OL6F8LG._dosvc._tcp.local SRV 0 0 7680 DESKTOP-OL6F8LG.local TXT
+
+Frame 15: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.58, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 7.353576441    fe80::7efc:148b:7aac:9645 ff02::fb              MDNS     384    Standard query response 0x0000 PTR DESKTOP-OL6F8LG._dosvc._tcp.local SRV 0 0 7680 DESKTOP-OL6F8LG.local TXT
+
+Frame 16: 384 bytes on wire (3072 bits), 384 bytes captured (3072 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 7.354768135    10.1.82.58            224.0.0.251           MDNS     93     Standard query 0x0000 ANY DESKTOP-OL6F8LG._dosvc._tcp.local, "QM" question
+
+Frame 17: 93 bytes on wire (744 bits), 93 bytes captured (744 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.58, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 7.354768514    fe80::7efc:148b:7aac:9645 ff02::fb              MDNS     113    Standard query 0x0000 ANY DESKTOP-OL6F8LG._dosvc._tcp.local, "QM" question
+
+Frame 18: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 7.495855751    10.1.82.90            224.0.0.251           MDNS     487    Standard query response 0x0000 SRV, cache flush 0 0 8180 PC-0095.local TXT, cache flush PTR _raop._tcp.local PTR 0A002700000B@5KPlayer-PC-0095._raop._tcp.local A, cache flush 10.1.82.90 AAAA, cache flush fe80::3067:f5ac:a782:3cd3 NSEC, cache flush PC-0095.local NSEC, cache flush 0A002700000B@5KPlayer-PC-0095._raop._tcp.local
+
+Frame 19: 487 bytes on wire (3896 bits), 487 bytes captured (3896 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 7.607390380    10.1.82.58            224.0.0.251           MDNS     93     Standard query 0x0000 ANY DESKTOP-OL6F8LG._dosvc._tcp.local, "QM" question
+
+Frame 20: 93 bytes on wire (744 bits), 93 bytes captured (744 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.58, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 7.607390789    fe80::7efc:148b:7aac:9645 ff02::fb              MDNS     113    Standard query 0x0000 ANY DESKTOP-OL6F8LG._dosvc._tcp.local, "QM" question
+
+Frame 21: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 7.862177166    10.1.82.58            224.0.0.251           MDNS     93     Standard query 0x0000 ANY DESKTOP-OL6F8LG._dosvc._tcp.local, "QM" question
+
+Frame 22: 93 bytes on wire (744 bits), 93 bytes captured (744 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.58, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 7.862177565    fe80::7efc:148b:7aac:9645 ff02::fb              MDNS     113    Standard query 0x0000 ANY DESKTOP-OL6F8LG._dosvc._tcp.local, "QM" question
+
+Frame 23: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 8.001007163    D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 24: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 8.116022887    10.1.82.58            224.0.0.251           MDNS     429    Standard query response 0x0000 PTR, cache flush DESKTOP-OL6F8LG._dosvc._tcp.local SRV, cache flush 0 0 7680 DESKTOP-OL6F8LG.local TXT, cache flush A, cache flush 10.1.82.58 AAAA, cache flush fe80::7efc:148b:7aac:9645
+
+Frame 25: 429 bytes on wire (3432 bits), 429 bytes captured (3432 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.58, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 8.116023205    fe80::7efc:148b:7aac:9645 ff02::fb              MDNS     449    Standard query response 0x0000 PTR, cache flush DESKTOP-OL6F8LG._dosvc._tcp.local SRV, cache flush 0 0 7680 DESKTOP-OL6F8LG.local TXT, cache flush A, cache flush 10.1.82.58 AAAA, cache flush fe80::7efc:148b:7aac:9645
+
+Frame 26: 449 bytes on wire (3592 bits), 449 bytes captured (3592 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 8.116023235    10.1.82.58            224.0.0.251           MDNS     365    Standard query response 0x0000 SRV, cache flush 0 0 7680 DESKTOP-OL6F8LG.local TXT, cache flush A, cache flush 10.1.82.58 AAAA, cache flush fe80::7efc:148b:7aac:9645
+
+Frame 27: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.58, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 8.117353502    fe80::7efc:148b:7aac:9645 ff02::fb              MDNS     385    Standard query response 0x0000 SRV, cache flush 0 0 7680 DESKTOP-OL6F8LG.local TXT, cache flush A, cache flush 10.1.82.58 AAAA, cache flush fe80::7efc:148b:7aac:9645
+
+Frame 28: 385 bytes on wire (3080 bits), 385 bytes captured (3080 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 9.959375541    10.1.82.54            34.36.137.203         TLSv1.2  105    Application Data
+
+Frame 29: 105 bytes on wire (840 bits), 105 bytes captured (840 bits)
+Ethernet II, Src: PcsCompu_8c:3f:9a (08:00:27:8c:3f:9a), Dst: 86:47:66:c2:c9:df (86:47:66:c2:c9:df)
+Internet Protocol Version 4, Src: 10.1.82.54, Dst: 34.36.137.203
+Transmission Control Protocol, Src Port: 40422, Dst Port: 443, Seq: 1, Ack: 1, Len: 39
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 9.970562413    34.36.137.203         10.1.82.54            TCP      66     443 → 40422 [ACK] Seq=1 Ack=40 Win=1046 Len=0 TSval=1674084659 TSecr=1861851546
+
+Frame 30: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 86:47:66:c2:c9:df (86:47:66:c2:c9:df), Dst: PcsCompu_8c:3f:9a (08:00:27:8c:3f:9a)
+Internet Protocol Version 4, Src: 34.36.137.203, Dst: 10.1.82.54
+Transmission Control Protocol, Src Port: 443, Dst Port: 40422, Seq: 1, Ack: 40, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 9.970562721    34.36.137.203         10.1.82.54            TLSv1.2  105    Application Data
+
+Frame 31: 105 bytes on wire (840 bits), 105 bytes captured (840 bits)
+Ethernet II, Src: 86:47:66:c2:c9:df (86:47:66:c2:c9:df), Dst: PcsCompu_8c:3f:9a (08:00:27:8c:3f:9a)
+Internet Protocol Version 4, Src: 34.36.137.203, Dst: 10.1.82.54
+Transmission Control Protocol, Src Port: 443, Dst Port: 40422, Seq: 1, Ack: 40, Len: 39
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 9.999524423    D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 32: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 10.013088042   10.1.82.54            34.36.137.203         TCP      66     40422 → 443 [ACK] Seq=40 Ack=40 Win=501 Len=0 TSval=1861851599 TSecr=1674084659
+
+Frame 33: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_8c:3f:9a (08:00:27:8c:3f:9a), Dst: 86:47:66:c2:c9:df (86:47:66:c2:c9:df)
+Internet Protocol Version 4, Src: 10.1.82.54, Dst: 34.36.137.203
+Transmission Control Protocol, Src Port: 40422, Dst Port: 443, Seq: 40, Ack: 40, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 10.874882784   10.1.82.1             224.0.0.13            PIMv2    68     Hello
+
+Frame 34: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Ethernet II, Src: 86:47:66:c2:c9:df (86:47:66:c2:c9:df), Dst: IPv4mcast_0d (01:00:5e:00:00:0d)
+Internet Protocol Version 4, Src: 10.1.82.1, Dst: 224.0.0.13
+Protocol Independent Multicast
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 11.493476840   10.1.82.90            224.0.0.251           MDNS     487    Standard query response 0x0000 SRV, cache flush 0 0 8180 PC-0095.local TXT, cache flush PTR _raop._tcp.local PTR 0A002700000B@5KPlayer-PC-0095._raop._tcp.local A, cache flush 10.1.82.90 AAAA, cache flush fe80::3067:f5ac:a782:3cd3 NSEC, cache flush PC-0095.local NSEC, cache flush 0A002700000B@5KPlayer-PC-0095._raop._tcp.local
+
+Frame 35: 487 bytes on wire (3896 bits), 487 bytes captured (3896 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 11.999940863   D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 36: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 13.600878379   fe80::1669:b6c3:757d:ef56 ff02::fb              MDNS     107    Standard query 0x0000 PTR _ipp._tcp.local, "QM" question PTR _ipps._tcp.local, "QM" question
+
+Frame 37: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Ethernet II, Src: PcsCompu_c7:5d:eb (08:00:27:c7:5d:eb), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::1669:b6c3:757d:ef56, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 13.600878906   10.1.82.59            224.0.0.251           MDNS     87     Standard query 0x0000 PTR _ipp._tcp.local, "QM" question PTR _ipps._tcp.local, "QM" question
+
+Frame 38: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: PcsCompu_c7:5d:eb (08:00:27:c7:5d:eb), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.59, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 13.865712373   fe80::7efc:148b:7aac:9645 ff02::1:ff00:1        ICMPv6   86     Neighbor Solicitation for fe80::1 from a0:36:bc:d1:0f:5f
+
+Frame 39: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_ff:00:00:01 (33:33:ff:00:00:01)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::1:ff00:1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 14.000749951   D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 40: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 14.741536746   fe80::7efc:148b:7aac:9645 ff02::1:ff00:1        ICMPv6   86     Neighbor Solicitation for fe80::1 from a0:36:bc:d1:0f:5f
+
+Frame 41: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_ff:00:00:01 (33:33:ff:00:00:01)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::1:ff00:1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 15.441818280   fe80::1669:b6c3:757d:ef56 ff02::2               ICMPv6   62     Router Solicitation
+
+Frame 42: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
+Ethernet II, Src: PcsCompu_c7:5d:eb (08:00:27:c7:5d:eb), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::1669:b6c3:757d:ef56, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 15.736946542   fe80::7efc:148b:7aac:9645 ff02::1:ff00:1        ICMPv6   86     Neighbor Solicitation for fe80::1 from a0:36:bc:d1:0f:5f
+
+Frame 43: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_ff:00:00:01 (33:33:ff:00:00:01)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::1:ff00:1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 15.999564331   D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 44: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 17.999642310   D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 45: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 18.126355470   fe80::7efc:148b:7aac:9645 ff02::1:ff00:1        ICMPv6   86     Neighbor Solicitation for fe80::1 from a0:36:bc:d1:0f:5f
+
+Frame 46: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_ff:00:00:01 (33:33:ff:00:00:01)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::1:ff00:1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 18.137880742   10.1.82.58            224.0.0.251           MDNS     77     Standard query 0x0000 PTR _dosvc._tcp.local, "QU" question
+
+Frame 47: 77 bytes on wire (616 bits), 77 bytes captured (616 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.58, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 18.137881074   fe80::7efc:148b:7aac:9645 ff02::fb              MDNS     97     Standard query 0x0000 PTR _dosvc._tcp.local, "QU" question
+
+Frame 48: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 18.735896007   fe80::7efc:148b:7aac:9645 ff02::1:ff00:1        ICMPv6   86     Neighbor Solicitation for fe80::1 from a0:36:bc:d1:0f:5f
+
+Frame 49: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_ff:00:00:01 (33:33:ff:00:00:01)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::1:ff00:1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 18.990201686   10.1.82.39            224.0.0.251           MDNS     208    Standard query response 0x0000 PTR PC-0098._dosvc._tcp.local SRV 0 0 7680 PC-0098.local TXT
+
+Frame 50: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.39, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 18.990982388   fe80::d075:5a2f:7e69:d431 ff02::fb              MDNS     228    Standard query response 0x0000 PTR PC-0098._dosvc._tcp.local SRV 0 0 7680 PC-0098.local TXT
+
+Frame 51: 228 bytes on wire (1824 bits), 228 bytes captured (1824 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::d075:5a2f:7e69:d431, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 18.991676769   10.1.82.39            224.0.0.251           MDNS     85     Standard query 0x0000 ANY PC-0098._dosvc._tcp.local, "QM" question
+
+Frame 52: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.39, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 18.991676920   fe80::d075:5a2f:7e69:d431 ff02::fb              MDNS     105    Standard query 0x0000 ANY PC-0098._dosvc._tcp.local, "QM" question
+
+Frame 53: 105 bytes on wire (840 bits), 105 bytes captured (840 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::d075:5a2f:7e69:d431, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 19.142843495   10.1.82.58            224.0.0.251           MDNS     77     Standard query 0x0000 PTR _dosvc._tcp.local, "QM" question
+
+Frame 54: 77 bytes on wire (616 bits), 77 bytes captured (616 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.58, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 19.142843825   fe80::7efc:148b:7aac:9645 ff02::fb              MDNS     97     Standard query 0x0000 PTR _dosvc._tcp.local, "QM" question
+
+Frame 55: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 19.142843856   10.1.82.52            224.0.0.251           MDNS     331    Standard query response 0x0000 PTR PO-IVAN._dosvc._tcp.local SRV 0 0 7680 PO-IVAN.local TXT A 10.1.82.52 AAAA fe80::fd28:b355:a3e1:e1da
+
+Frame 56: 331 bytes on wire (2648 bits), 331 bytes captured (2648 bits)
+Ethernet II, Src: HP_db:d3:c2 (b0:5c:da:db:d3:c2), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.52, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 19.142843885   10.1.82.58            224.0.0.251           MDNS     429    Standard query response 0x0000 PTR DESKTOP-OL6F8LG._dosvc._tcp.local SRV 0 0 7680 DESKTOP-OL6F8LG.local TXT A 10.1.82.58 AAAA fe80::7efc:148b:7aac:9645
+
+Frame 57: 429 bytes on wire (3432 bits), 429 bytes captured (3432 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.58, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 19.143518343   10.1.82.126           224.0.0.251           MDNS     261    Standard query response 0x0000 PTR PC-117._dosvc._tcp.local SRV 0 0 7680 PC-117.local TXT A 10.1.82.126 AAAA fe80::d4db:d1a8:f7df:72ef
+
+Frame 58: 261 bytes on wire (2088 bits), 261 bytes captured (2088 bits)
+Ethernet II, Src: ASUSTekC_d6:d1:3b (2c:56:dc:d6:d1:3b), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.126, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 19.143518486   fe80::d4db:d1a8:f7df:72ef ff02::fb              MDNS     281    Standard query response 0x0000 PTR PC-117._dosvc._tcp.local SRV 0 0 7680 PC-117.local TXT A 10.1.82.126 AAAA fe80::d4db:d1a8:f7df:72ef
+
+Frame 59: 281 bytes on wire (2248 bits), 281 bytes captured (2248 bits)
+Ethernet II, Src: ASUSTekC_d6:d1:3b (2c:56:dc:d6:d1:3b), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::d4db:d1a8:f7df:72ef, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 19.143518524   10.1.82.98            224.0.0.251           MDNS     265    Standard query response 0x0000 PTR PC-0096._dosvc._tcp.local SRV 0 0 7680 PC-0096.local TXT A 10.1.82.98 AAAA fe80::b5ed:bd9f:a7de:8dd
+
+Frame 60: 265 bytes on wire (2120 bits), 265 bytes captured (2120 bits)
+Ethernet II, Src: Giga-Byt_58:ca:5a (d8:5e:d3:58:ca:5a), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.98, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 19.143518552   fe80::7efc:148b:7aac:9645 ff02::fb              MDNS     449    Standard query response 0x0000 PTR DESKTOP-OL6F8LG._dosvc._tcp.local SRV 0 0 7680 DESKTOP-OL6F8LG.local TXT A 10.1.82.58 AAAA fe80::7efc:148b:7aac:9645
+
+Frame 61: 449 bytes on wire (3592 bits), 449 bytes captured (3592 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 19.143518581   fe80::b5ed:bd9f:a7de:8dd ff02::fb              MDNS     285    Standard query response 0x0000 PTR PC-0096._dosvc._tcp.local SRV 0 0 7680 PC-0096.local TXT A 10.1.82.98 AAAA fe80::b5ed:bd9f:a7de:8dd
+
+Frame 62: 285 bytes on wire (2280 bits), 285 bytes captured (2280 bits)
+Ethernet II, Src: Giga-Byt_58:ca:5a (d8:5e:d3:58:ca:5a), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::b5ed:bd9f:a7de:8dd, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 19.143518611   fe80::fd28:b355:a3e1:e1da ff02::fb              MDNS     351    Standard query response 0x0000 PTR PO-IVAN._dosvc._tcp.local SRV 0 0 7680 PO-IVAN.local TXT A 10.1.82.52 AAAA fe80::fd28:b355:a3e1:e1da
+
+Frame 63: 351 bytes on wire (2808 bits), 351 bytes captured (2808 bits)
+Ethernet II, Src: HP_db:d3:c2 (b0:5c:da:db:d3:c2), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::fd28:b355:a3e1:e1da, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 19.254244933   10.1.82.39            224.0.0.251           MDNS     85     Standard query 0x0000 ANY PC-0098._dosvc._tcp.local, "QM" question
+
+Frame 64: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.39, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 19.254245401   fe80::d075:5a2f:7e69:d431 ff02::fb              MDNS     105    Standard query 0x0000 ANY PC-0098._dosvc._tcp.local, "QM" question
+
+Frame 65: 105 bytes on wire (840 bits), 105 bytes captured (840 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::d075:5a2f:7e69:d431, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 19.501432211   10.1.82.90            224.0.0.251           MDNS     487    Standard query response 0x0000 SRV, cache flush 0 0 8180 PC-0095.local TXT, cache flush PTR _raop._tcp.local PTR 0A002700000B@5KPlayer-PC-0095._raop._tcp.local A, cache flush 10.1.82.90 AAAA, cache flush fe80::3067:f5ac:a782:3cd3 NSEC, cache flush PC-0095.local NSEC, cache flush 0A002700000B@5KPlayer-PC-0095._raop._tcp.local
+
+Frame 66: 487 bytes on wire (3896 bits), 487 bytes captured (3896 bits)
+Ethernet II, Src: Giga-Byt_58:cf:99 (d8:5e:d3:58:cf:99), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.90, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 19.516731852   10.1.82.39            224.0.0.251           MDNS     85     Standard query 0x0000 ANY PC-0098._dosvc._tcp.local, "QM" question
+
+Frame 67: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.39, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 19.516732223   fe80::d075:5a2f:7e69:d431 ff02::fb              MDNS     105    Standard query 0x0000 ANY PC-0098._dosvc._tcp.local, "QM" question
+
+Frame 68: 105 bytes on wire (840 bits), 105 bytes captured (840 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::d075:5a2f:7e69:d431, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 19.736535724   fe80::7efc:148b:7aac:9645 ff02::1:ff00:1        ICMPv6   86     Neighbor Solicitation for fe80::1 from a0:36:bc:d1:0f:5f
+
+Frame 69: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_ff:00:00:01 (33:33:ff:00:00:01)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::1:ff00:1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 19.767480565   10.1.82.39            224.0.0.251           MDNS     265    Standard query response 0x0000 PTR, cache flush PC-0098._dosvc._tcp.local SRV, cache flush 0 0 7680 PC-0098.local TXT, cache flush A, cache flush 10.1.82.39 AAAA, cache flush fe80::d075:5a2f:7e69:d431
+
+Frame 70: 265 bytes on wire (2120 bits), 265 bytes captured (2120 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.39, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 19.767480927   fe80::d075:5a2f:7e69:d431 ff02::fb              MDNS     285    Standard query response 0x0000 PTR, cache flush PC-0098._dosvc._tcp.local SRV, cache flush 0 0 7680 PC-0098.local TXT, cache flush A, cache flush 10.1.82.39 AAAA, cache flush fe80::d075:5a2f:7e69:d431
+
+Frame 71: 285 bytes on wire (2280 bits), 285 bytes captured (2280 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::d075:5a2f:7e69:d431, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 19.767480969   10.1.82.39            224.0.0.251           MDNS     209    Standard query response 0x0000 SRV, cache flush 0 0 7680 PC-0098.local TXT, cache flush A, cache flush 10.1.82.39 AAAA, cache flush fe80::d075:5a2f:7e69:d431
+
+Frame 72: 209 bytes on wire (1672 bits), 209 bytes captured (1672 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 10.1.82.39, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 19.767481008   fe80::d075:5a2f:7e69:d431 ff02::fb              MDNS     229    Standard query response 0x0000 SRV, cache flush 0 0 7680 PC-0098.local TXT, cache flush A, cache flush 10.1.82.39 AAAA, cache flush fe80::d075:5a2f:7e69:d431
+
+Frame 73: 229 bytes on wire (1832 bits), 229 bytes captured (1832 bits)
+Ethernet II, Src: Giga-Byt_58:c3:30 (d8:5e:d3:58:c3:30), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::d075:5a2f:7e69:d431, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 19.999469587   D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 74: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 21.999689881   D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 75: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 23.999791426   D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 76: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 24.542417675   fe80::7efc:148b:7aac:9645 ff02::1:ff00:1        ICMPv6   86     Neighbor Solicitation for fe80::1 from a0:36:bc:d1:0f:5f
+
+Frame 77: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_ff:00:00:01 (33:33:ff:00:00:01)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::1:ff00:1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 25.242372703   fe80::7efc:148b:7aac:9645 ff02::1:ff00:1        ICMPv6   86     Neighbor Solicitation for fe80::1 from a0:36:bc:d1:0f:5f
+
+Frame 78: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_ff:00:00:01 (33:33:ff:00:00:01)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::1:ff00:1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 26.000859116   D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 79: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 26.242029213   fe80::7efc:148b:7aac:9645 ff02::1:ff00:1        ICMPv6   86     Neighbor Solicitation for fe80::1 from a0:36:bc:d1:0f:5f
+
+Frame 80: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: ASUSTekC_d1:0f:5f (a0:36:bc:d1:0f:5f), Dst: IPv6mcast_ff:00:00:01 (33:33:ff:00:00:01)
+Internet Protocol Version 6, Src: fe80::7efc:148b:7aac:9645, Dst: ff02::1:ff00:1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 27.999216410   D-LinkIn_69:4b:10     Ethernet-Configuration-Test-protocol-(Loopback) LOOP     60     Unknown function (256)
+
+Frame 81: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: D-LinkIn_69:4b:10 (bc:22:28:69:4b:10), Dst: Ethernet-Configuration-Test-protocol-(Loopback) (cf:00:00:00:00:00)
+Configuration Test Protocol (loopback)
+Data (42 bytes)
+
+0000  00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00                     ..........
+Document made by Manuel
